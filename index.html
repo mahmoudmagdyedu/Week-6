@@ -18,7 +18,6 @@
         <span>GamesArena</span>
       </a>
       <button class="navbar-toggler" type="button">
-        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav mx-auto align-items-lg-center">
@@ -38,6 +37,7 @@
   </nav>
 
   <header class="hero-section d-flex align-items-center" id="home">
+    <img src="img/images/hero-bg.jpg" alt="...">
     <div class="container page-container hero-content">
       <div class="row align-items-center g-5">
         <div class="col-lg-6">
@@ -72,14 +72,42 @@
           <p class="section-label">OUR GAMES</p>
           <h2>Our Latest Games</h2>
         </div>
-        <div class="latest-grid">
-          <article class="latest-card"><img src="img/images/latest-games-1.png" alt="Alien adventure game"></article>
-          <article class="latest-card"><img src="img/images/latest-games-2.png" alt="Futuristic racing game"></article>
-          <article class="latest-card"><img src="img/images/latest-games-3.png" alt="Space exploration game"></article>
+        <div id="carouselExampleIndicators" class="carousel slide">
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+          <div class="latest-grid">
+          <div class="latest-card "><img src="img/images/latest-games-1.png" alt="Alien adventure game"></div>
+          <div class="latest-card d-none d-lg-block"><img src="img/images/latest-games-2.png" alt="Futuristic racing game"></div>
+          <div class="latest-card d-none d-lg-block"><img src="img/images/latest-games-3.png" alt="Space exploration game"></div>
         </div>
-        <div class="game-controls">
-          <button >‹</button>
-          <button >›</button>
+    </div>
+    <div class="carousel-item">
+        <div class="latest-grid">
+          <div class="latest-card d-none d-lg-block"><img src="img/images/latest-games-1.png" alt="Alien adventure game"></div>
+          <div class="latest-card"><img src="img/images/latest-games-2.png" alt="Futuristic racing game"></div>
+          <div class="latest-card d-none d-lg-block"><img src="img/images/latest-games-3.png" alt="Space exploration game"></div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="latest-grid">
+          <div class="latest-card d-none d-lg-block"><img src="img/images/latest-games-1.png" alt="Alien adventure game"></div>
+          <div class="latest-card d-none d-lg-block"><img src="img/images/latest-games-2.png" alt="Futuristic racing game"></div>
+          <div class="latest-card"><img src="img/images/latest-games-3.png" alt="Space exploration game"></div>
+        </div>
+  </div>
+
+
+</div>
+    <div class="game-controls">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+        </button>
           <a class="btn btn-outline-lime view-games" href="#services">VIEW ALL GAMES</a>
         </div>
       </div>
@@ -93,36 +121,36 @@
         </div>
         <div class="services-showcase">
           <div class="services-grid">
-            <article class="service-card">
+            <div class="service-card">
               <span class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M128 96C92.7 96 64 124.7 64 160L64 416C64 451.3 92.7 480 128 480L272 480L256 528L184 528C170.7 528 160 538.7 160 552C160 565.3 170.7 576 184 576L456 576C469.3 576 480 565.3 480 552C480 538.7 469.3 528 456 528L384 528L368 480L512 480C547.3 480 576 451.3 576 416L576 160C576 124.7 547.3 96 512 96L128 96zM160 160L480 160C497.7 160 512 174.3 512 192L512 352C512 369.7 497.7 384 480 384L160 384C142.3 384 128 369.7 128 352L128 192C128 174.3 142.3 160 160 160z"/></svg></span>
               <h3>PC Game<br>Development</h3>
-            </article>
-            <article class="service-card">
+            </div>
+            <div class="service-card">
               <span class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M144 128C144 92.7 172.7 64 208 64L432 64C467.3 64 496 92.7 496 128L496 512C496 547.3 467.3 576 432 576L208 576C172.7 576 144 547.3 144 512L144 128zM208 128L208 432L432 432L432 128L208 128zM320 536C337.7 536 352 521.7 352 504C352 486.3 337.7 472 320 472C302.3 472 288 486.3 288 504C288 521.7 302.3 536 320 536z"/></svg></span>
               <h3>Mobile Game<br>Development</h3>
-            </article>
-            <article class="service-image">
+            </div>
+            <div class="service-image">
               <img src="img/images/what-we-do-1.png" alt="Neon gaming controllers">
-            </article>
-            <article class="service-card">
+            </div>
+            <div class="service-card">
               <span class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M544 160L96 160C60.7 160 32 188.7 32 224L32 416C32 451.3 60.7 480 96 480L213.5 480C230.5 480 246.8 473.3 258.8 461.3L292.7 427.4C299.9 420.2 309.8 416.1 320 416.1C330.2 416.1 340.1 420.2 347.3 427.4L381.2 461.3C393.2 473.3 409.5 480 426.5 480L544 480C579.3 480 608 451.3 608 416L608 224C608 188.7 579.3 160 544 160zM112 304C112 268.7 140.7 240 176 240C211.3 240 240 268.7 240 304C240 339.3 211.3 368 176 368C140.7 368 112 339.3 112 304zM464 240C499.3 240 528 268.7 528 304C528 339.3 499.3 368 464 368C428.7 368 400 339.3 400 304C400 268.7 428.7 240 464 240z"/></svg></span>
               <h3>AR/VR<br>Solutions</h3>
-            </article>
-            <article class="service-card">
+            </div>
+            <div class="service-card">
               <span class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M320 312C386.3 312 440 258.3 440 192C440 125.7 386.3 72 320 72C253.7 72 200 125.7 200 192C200 258.3 253.7 312 320 312zM290.3 368C191.8 368 112 447.8 112 546.3C112 562.7 125.3 576 141.7 576L498.3 576C514.7 576 528 562.7 528 546.3C528 447.8 448.2 368 349.7 368L290.3 368z"/></svg></span>
               <h3>AR/VR<br>Design</h3>
-            </article>
-            <article class="service-image">
+            </div>
+            <div class="service-image">
               <img src="img/images/what-we-do-2.png" alt="Friendly game character">
-            </article>
-            <article class="service-card">
+            </div>
+            <div class="service-card">
               <span class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M448 128C554 128 640 214 640 320C640 426 554 512 448 512L192 512C86 512 0 426 0 320C0 214 86 128 192 128L448 128zM192 240C178.7 240 168 250.7 168 264L168 296L136 296C122.7 296 112 306.7 112 320C112 333.3 122.7 344 136 344L168 344L168 376C168 389.3 178.7 400 192 400C205.3 400 216 389.3 216 376L216 344L248 344C261.3 344 272 333.3 272 320C272 306.7 261.3 296 248 296L216 296L216 264C216 250.7 205.3 240 192 240zM432 336C414.3 336 400 350.3 400 368C400 385.7 414.3 400 432 400C449.7 400 464 385.7 464 368C464 350.3 449.7 336 432 336zM496 240C478.3 240 464 254.3 464 272C464 289.7 478.3 304 496 304C513.7 304 528 289.7 528 272C528 254.3 513.7 240 496 240z"/></svg></span>
               <h3>PS4 Game<br>Development</h3>
-            </article>
-            <article class="service-card">
+            </div>
+            <div class="service-card">
               <span class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M288.3 61.5C308.1 50.1 332.5 50.1 352.3 61.5L528.2 163C548 174.4 560.2 195.6 560.2 218.4L560.2 421.4C560.2 444.3 548 465.4 528.2 476.8L352.3 578.5C332.5 589.9 308.1 589.9 288.3 578.5L112.5 477C92.7 465.6 80.5 444.4 80.5 421.6L80.5 218.6C80.5 195.7 92.7 174.6 112.5 163.2L288.3 61.5zM496.1 421.5L496.1 255.4L352.3 338.4L352.3 504.5L496.1 421.5z"/></svg></span>
               <h3>3D<br>Modelings</h3>
-            </article>
+            </div>
           </div>
         </div>
       </div>
@@ -191,7 +219,7 @@
           <p class="section-subtitle">Meet the professional gamers and experts behind our success</p>
         </div>
         <div class="team-grid">
-          <article class="team-card">
+          <div class="team-card">
             <img src="img/images/avatar-1.png" alt="Alex Chen">
             <div class="team-info">
               <h3>Alex "Phantom"<br>Chen</h3>
@@ -203,8 +231,8 @@
               <strong>Phantom</strong>
               <span>Sharpshooter and clutch specialist.</span>
             </div>
-          </article>
-          <article class="team-card">
+          </div>
+          <div class="team-card">
             <img src="img/images/avatar-2.png" alt="Ali Ahmed">
             <div class="team-info">
               <h3>Ali "Nova" Ahmed</h3>
@@ -216,8 +244,8 @@
               <strong>Nova</strong>
               <span>Fast calls, clean rotations.</span>
             </div>
-          </article>
-          <article class="team-card">
+          </div>
+          <div class="team-card">
             <img src="img/images/avatar-3.png" alt="Marcus Rodriguez">
             <div class="team-info">
               <h3>Marcus "Viper"<br>Rodriguez</h3>
@@ -229,8 +257,8 @@
               <strong>Viper</strong>
               <span>Builds tournament-ready systems.</span>
             </div>
-          </article>
-          <article class="team-card">
+          </div>
+          <div class="team-card">
             <img src="img/images/avatar-4.png" alt="Usama Sage">
             <div class="team-info">
               <h3>Self "Sage" Usama</h3>
@@ -242,8 +270,8 @@
               <strong>Sage</strong>
               <span>Reads patterns before they happen.</span>
             </div>
-          </article>
-          <article class="team-card">
+          </div>
+          <div class="team-card">
             <img src="img/images/avatar-5.png" alt="Jake Wilson">
             <div class="team-info">
               <h3>Jake "Storm"<br>Wilson</h3>
@@ -255,8 +283,8 @@
               <strong>Storm</strong>
               <span>High-pressure late game leader.</span>
             </div>
-          </article>
-          <article class="team-card">
+          </div>
+          <div class="team-card">
             <img src="img/images/avatar-6.png" alt="David Park">
             <div class="team-info">
               <h3>David "Titan" Park</h3>
@@ -268,8 +296,8 @@
               <strong>Titan</strong>
               <span>Calm captain with sharp macro play.</span>
             </div>
-          </article>
-          <article class="team-card">
+          </div>
+          <div class="team-card">
             <img src="img/images/avatar-7.png" alt="Khaled Ali">
             <div class="team-info">
               <h3>Khaled "Phoenix"<br>Ali</h3>
@@ -281,8 +309,8 @@
               <strong>Phoenix</strong>
               <span>Turns highlights into community moments.</span>
             </div>
-          </article>
-          <article class="team-card">
+          </div>
+          <div class="team-card">
             <img src="img/images/avatar-8.png" alt="Ryan Miller">
             <div class="team-info">
               <h3>Ryan "Ghost"<br>Miller</h3>
@@ -294,7 +322,7 @@
               <strong>Ghost</strong>
               <span>Keeps live events smooth.</span>
             </div>
-          </article>
+          </div>
         </div>
       </div>
     </section>
@@ -308,28 +336,28 @@
         </div>
         <div class="contact-grid">
           <div class="contact-left">
-            <article class="contact-card">
+            <div class="contact-card">
               <span class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M128 252.6C128 148.4 214 64 320 64C426 64 512 148.4 512 252.6C512 371.9 391.8 514.9 341.6 569.4C329.8 582.2 310.1 582.2 298.3 569.4C248.1 514.9 127.9 371.9 127.9 252.6zM320 320C355.3 320 384 291.3 384 256C384 220.7 355.3 192 320 192C284.7 192 256 220.7 256 256C256 291.3 284.7 320 320 320z"/></svg></span>
               <div>
                 <h3>Our Location</h3>
                 <p>123 Gaming Street, Esports City, EC 12345</p>
               </div>
-            </article>
-            <article class="contact-card">
+            </div>
+            <div class="contact-card">
               <span class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M144 128C144 92.7 172.7 64 208 64L432 64C467.3 64 496 92.7 496 128L496 512C496 547.3 467.3 576 432 576L208 576C172.7 576 144 547.3 144 512L144 128zM208 128L208 432L432 432L432 128L208 128zM320 536C337.7 536 352 521.7 352 504C352 486.3 337.7 472 320 472C302.3 472 288 486.3 288 504C288 521.7 302.3 536 320 536z"/></svg></span>
               <div>
                 <h3>Phone Number</h3>
                 <p>+1 (555) 123-4567</p>
               </div>
-            </article>
-            <article class="contact-card">
+            </div>
+            <div class="contact-card">
               <span class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M125.4 128C91.5 128 64 155.5 64 189.4C64 190.3 64 191.1 64.1 192L64 192L64 448C64 483.3 92.7 512 128 512L512 512C547.3 512 576 483.3 576 448L576 192L575.9 192C575.9 191.1 576 190.3 576 189.4C576 155.5 548.5 128 514.6 128L125.4 128zM528 256.3L528 448C528 456.8 520.8 464 512 464L128 464C119.2 464 112 456.8 112 448L112 256.3L266.8 373.7C298.2 397.6 341.7 397.6 373.2 373.7L528 256.3zM112 189.4C112 182 118 176 125.4 176L514.6 176C522 176 528 182 528 189.4C528 193.6 526 197.6 522.7 200.1L344.2 335.5C329.9 346.3 310.1 346.3 295.8 335.5L117.3 200.1C114 197.6 112 193.6 112 189.4z"/></svg></span>
               <div>
                 <h3>Email Address</h3>
                 <p>contact@gamesarena.com</p>
               </div>
-            </article>
-            <article class="community-card">
+            </div>
+            <div class="community-card">
               <h3>Join Our Community</h3>
               <p>Connect with us on social media for the latest updates</p>
               <div class="social-row">
@@ -338,7 +366,7 @@
                 <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path fill="rgb(255, 255, 255)" d="M320.3 205C256.8 204.8 205.2 256.2 205 319.7C204.8 383.2 256.2 434.8 319.7 435C383.2 435.2 434.8 383.8 435 320.3C435.2 256.8 383.8 205.2 320.3 205zM319.7 245.4C360.9 245.2 394.4 278.5 394.6 319.7C394.8 360.9 361.5 394.4 320.3 394.6C279.1 394.8 245.6 361.5 245.4 320.3C245.2 279.1 278.5 245.6 319.7 245.4zM413.1 200.3C413.1 185.5 425.1 173.5 439.9 173.5C454.7 173.5 466.7 185.5 466.7 200.3C466.7 215.1 454.7 227.1 439.9 227.1C425.1 227.1 413.1 215.1 413.1 200.3zM542.8 227.5C541.1 191.6 532.9 159.8 506.6 133.6C480.4 107.4 448.6 99.2 412.7 97.4C375.7 95.3 264.8 95.3 227.8 97.4C192 99.1 160.2 107.3 133.9 133.5C107.6 159.7 99.5 191.5 97.7 227.4C95.6 264.4 95.6 375.3 97.7 412.3C99.4 448.2 107.6 480 133.9 506.2C160.2 532.4 191.9 540.6 227.8 542.4C264.8 544.5 375.7 544.5 412.7 542.4C448.6 540.7 480.4 532.5 506.6 506.2C532.8 480 541 448.2 542.8 412.3C544.9 375.3 544.9 264.5 542.8 227.5zM495 452C487.2 471.6 472.1 486.7 452.4 494.6C422.9 506.3 352.9 503.6 320.3 503.6C287.7 503.6 217.6 506.2 188.2 494.6C168.6 486.8 153.5 471.7 145.6 452C133.9 422.5 136.6 352.5 136.6 319.9C136.6 287.3 134 217.2 145.6 187.8C153.4 168.2 168.5 153.1 188.2 145.2C217.7 133.5 287.7 136.2 320.3 136.2C352.9 136.2 423 133.6 452.4 145.2C472 153 487.1 168.1 495 187.8C506.7 217.3 504 287.3 504 319.9C504 352.5 506.7 422.6 495 452z"/></svg></a>
                 <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path fill="rgb(255, 255, 255)" d="M581.7 188.1C575.5 164.4 556.9 145.8 533.4 139.5C490.9 128 320.1 128 320.1 128C320.1 128 149.3 128 106.7 139.5C83.2 145.8 64.7 164.4 58.4 188.1C47 231 47 320.4 47 320.4C47 320.4 47 409.8 58.4 452.7C64.7 476.3 83.2 494.2 106.7 500.5C149.3 512 320.1 512 320.1 512C320.1 512 490.9 512 533.5 500.5C557 494.2 575.5 476.3 581.8 452.7C593.2 409.8 593.2 320.4 593.2 320.4C593.2 320.4 593.2 231 581.8 188.1zM264.2 401.6L264.2 239.2L406.9 320.4L264.2 401.6z"/></svg></a>
               </div>
-            </article>
+            </div>
           </div>
           <div class="message-panel">
             <h3>Send us a Message</h3>
@@ -377,7 +405,7 @@
                 <div class="col-12">
                   <button class="btn btn-lime w-100 submit-btn" type="submit">
                     Send Message
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path fill="rgb(255, 255, 255)" d="M568.4 37.7C578.2 34.2 589 36.7 596.4 44C603.8 51.3 606.2 62.2 602.7 72L424.7 568.9C419.7 582.8 406.6 592 391.9 592C377.7 592 364.9 583.4 359.6 570.3L295.4 412.3C290.9 401.3 292.9 388.7 300.6 379.7L395.1 267.3C400.2 261.2 399.8 252.3 394.2 246.7C388.6 241.1 379.6 240.7 373.6 245.8L261.2 340.1C252.1 347.7 239.6 349.7 228.6 345.3L70.1 280.8C57 275.5 48.4 262.7 48.4 248.5C48.4 233.8 57.6 220.7 71.5 215.7L568.4 37.7z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M568.4 37.7C578.2 34.2 589 36.7 596.4 44C603.8 51.3 606.2 62.2 602.7 72L424.7 568.9C419.7 582.8 406.6 592 391.9 592C377.7 592 364.9 583.4 359.6 570.3L295.4 412.3C290.9 401.3 292.9 388.7 300.6 379.7L395.1 267.3C400.2 261.2 399.8 252.3 394.2 246.7C388.6 241.1 379.6 240.7 373.6 245.8L261.2 340.1C252.1 347.7 239.6 349.7 228.6 345.3L70.1 280.8C57 275.5 48.4 262.7 48.4 248.5C48.4 233.8 57.6 220.7 71.5 215.7L568.4 37.7z"/></svg>
                   </button>
                 </div>
               </div>
@@ -388,7 +416,7 @@
                 <span>Support Available</span>
               </div>
               <div>
-                <strong>1hr</strong>
+                <strong><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path fill="rgb(200, 255, 0)" d="M541.1 114.6C548.5 130.6 541.5 149.7 525.5 157.1L172.4 320L525.4 483C541.4 490.4 548.4 509.4 541 525.5C533.6 541.6 514.6 548.5 498.5 541.1L82.5 349.1C71.3 343.8 64 332.5 64 320C64 307.5 71.3 296.2 82.6 291L498.6 99C514.6 91.6 533.7 98.6 541.1 114.6z"/></svg>1hr</strong>
                 <span>Average Response</span>
               </div>
             </div>
